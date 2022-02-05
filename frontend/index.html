@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hidden Dangers</title>
+    <link rel="stylesheet" href="./w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+      
+        body {
+            background-repeat: repeat;
+            background-size: 100%;
+        }
+        
+
+
+        @media only screen and (hover: none) and (pointer: coarse)  and 
+        (max-device-width: 900px) {
+            body{
+                background-image:none;
+                background-color: #0E153A;
+            }
+            .c-monitor{
+                display:none;
+            }
+            .c-mobile{
+                display:block;
+            }
+            .c-lineHeight{
+                line-height: 0.5;
+            }
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
+
+</head>
+
+<body>
+    <div class="c-monitor">
+        <section class="container">
+            <p>
+                "hello world"
+            </p>
+        </section>
+    </div>
+
+ <!-- This is for mobile formating-->
+<div class="c-mobile c-white c-bgbg w3-center c-hide" >
+    <div data-aos="zoom-in" class='c-midBlueBg w3-container c-container c-blockContainer'>
+
+    </div>
+
+    <div data-aos="zoom-in" class="c-midBlueBg w3-container c-container c-blockContainer">
+
+
+    </div>
+  <script>
+      AOS.init();
+  </script>
+
+</body>
+
+</html>

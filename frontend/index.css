@@ -1,0 +1,16 @@
+.c-ResultsBlock{
+    margin-top:10%;
+    margin-right: 5%;
+    margin-left:5%;
+}
+
+.c-sendToBack{
+    z-index: -200;
+}
+
+.c-mobile{
+    display:none;
+} 
+.c-monitor{
+    display:block;
+} 
